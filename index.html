@@ -27,8 +27,8 @@
 		  		<label class="form-label">Number Phone</label>
 		  		
 		  	<div class="input-group">	<input id="phone" name="phone" type="number" class="form-input" autocomplete="off" autocapitalize="off" pattern="[0-9]" />
-		  		<span class="input-group-addon"><i class="icon icon-share"></i></span>
-		  		<span class="input-group-addon"><i class="icon icon-copy"></i></span>
+		  		<span id="paste" class="input-group-addon tooltip" data-tooltip="Pasted!"><i class="icon icon-share "></i></span>
+		  		<span id="copy" class="input-group-addon tooltip" data-tooltip="Copied!"><i class="icon icon-copy"></i></span>
 		  		</div>
 		  		
 		  	</div>
@@ -39,10 +39,16 @@
 	</div>
 </div>
 
+
+
 <script src="code-contry/dist/contrycode.js"></script>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/axios/dist/axios.min.js"></script>
 <script>
+	
+async function paste() { 
+	const text = await navigator.clipboard.readText(); $("#phone").val(text)
+}
 	
 	var option ="";
 	contrycode.forEach((opt)=>{
@@ -54,6 +60,15 @@
 	.html(option)
 	$("#codecontry")
 	.attr("value","56")
+	
+$("#copy").on("click",()=>{
+	$("#phone").select()
+	document.execCommand("copy");
+})
+
+$("#paste").on("click",()=>{
+	 paste()
+})
 	
 $("#open").on('click',
 function(){ 
