@@ -26,6 +26,8 @@ $("table")
 });
 ///////
 fs.writeFile("dist/contrycode.js","var contrycode="+JSON.stringify(json)+";", function(err) { if(err) { return console.log(err); } console.log("The file was saved!"); }); 
+fs.writeFile("dist/contrycode.json",JSON.stringify(json,null,2), function(err) { if(err) { return console.log(err); } console.log("The file was saved!"); }); 
+
 
  });
  

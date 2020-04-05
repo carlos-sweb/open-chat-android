@@ -1,0 +1,1202 @@
+[
+  {
+    "contry": "Afghanistan",
+    "code": "93",
+    "iso": "AF / AFG"
+  },
+  {
+    "contry": "Albania",
+    "code": "355",
+    "iso": "AL / ALB"
+  },
+  {
+    "contry": "Algeria",
+    "code": "213",
+    "iso": "DZ / DZA"
+  },
+  {
+    "contry": "American Samoa",
+    "code": "1-684",
+    "iso": "AS / ASM"
+  },
+  {
+    "contry": "Andorra",
+    "code": "376",
+    "iso": "AD / AND"
+  },
+  {
+    "contry": "Angola",
+    "code": "244",
+    "iso": "AO / AGO"
+  },
+  {
+    "contry": "Anguilla",
+    "code": "1-264",
+    "iso": "AI / AIA"
+  },
+  {
+    "contry": "Antarctica",
+    "code": "672",
+    "iso": "AQ / ATA"
+  },
+  {
+    "contry": "Antigua and Barbuda",
+    "code": "1-268",
+    "iso": "AG / ATG"
+  },
+  {
+    "contry": "Argentina",
+    "code": "54",
+    "iso": "AR / ARG"
+  },
+  {
+    "contry": "Armenia",
+    "code": "374",
+    "iso": "AM / ARM"
+  },
+  {
+    "contry": "Aruba",
+    "code": "297",
+    "iso": "AW / ABW"
+  },
+  {
+    "contry": "Australia",
+    "code": "61",
+    "iso": "AU / AUS"
+  },
+  {
+    "contry": "Austria",
+    "code": "43",
+    "iso": "AT / AUT"
+  },
+  {
+    "contry": "Azerbaijan",
+    "code": "994",
+    "iso": "AZ / AZE"
+  },
+  {
+    "contry": "Bahamas",
+    "code": "1-242",
+    "iso": "BS / BHS"
+  },
+  {
+    "contry": "Bahrain",
+    "code": "973",
+    "iso": "BH / BHR"
+  },
+  {
+    "contry": "Bangladesh",
+    "code": "880",
+    "iso": "BD / BGD"
+  },
+  {
+    "contry": "Barbados",
+    "code": "1-246",
+    "iso": "BB / BRB"
+  },
+  {
+    "contry": "Belarus",
+    "code": "375",
+    "iso": "BY / BLR"
+  },
+  {
+    "contry": "Belgium",
+    "code": "32",
+    "iso": "BE / BEL"
+  },
+  {
+    "contry": "Belize",
+    "code": "501",
+    "iso": "BZ / BLZ"
+  },
+  {
+    "contry": "Benin",
+    "code": "229",
+    "iso": "BJ / BEN"
+  },
+  {
+    "contry": "Bermuda",
+    "code": "1-441",
+    "iso": "BM / BMU"
+  },
+  {
+    "contry": "Bhutan",
+    "code": "975",
+    "iso": "BT / BTN"
+  },
+  {
+    "contry": "Bolivia",
+    "code": "591",
+    "iso": "BO / BOL"
+  },
+  {
+    "contry": "Bosnia and Herzegovina",
+    "code": "387",
+    "iso": "BA / BIH"
+  },
+  {
+    "contry": "Botswana",
+    "code": "267",
+    "iso": "BW / BWA"
+  },
+  {
+    "contry": "Brazil",
+    "code": "55",
+    "iso": "BR / BRA"
+  },
+  {
+    "contry": "British Indian Ocean Territory",
+    "code": "246",
+    "iso": "IO / IOT"
+  },
+  {
+    "contry": "British Virgin Islands",
+    "code": "1-284",
+    "iso": "VG / VGB"
+  },
+  {
+    "contry": "Brunei",
+    "code": "673",
+    "iso": "BN / BRN"
+  },
+  {
+    "contry": "Bulgaria",
+    "code": "359",
+    "iso": "BG / BGR"
+  },
+  {
+    "contry": "Burkina Faso",
+    "code": "226",
+    "iso": "BF / BFA"
+  },
+  {
+    "contry": "Burundi",
+    "code": "257",
+    "iso": "BI / BDI"
+  },
+  {
+    "contry": "Cambodia",
+    "code": "855",
+    "iso": "KH / KHM"
+  },
+  {
+    "contry": "Cameroon",
+    "code": "237",
+    "iso": "CM / CMR"
+  },
+  {
+    "contry": "Canada",
+    "code": "1",
+    "iso": "CA / CAN"
+  },
+  {
+    "contry": "Cape Verde",
+    "code": "238",
+    "iso": "CV / CPV"
+  },
+  {
+    "contry": "Cayman Islands",
+    "code": "1-345",
+    "iso": "KY / CYM"
+  },
+  {
+    "contry": "Central African Republic",
+    "code": "236",
+    "iso": "CF / CAF"
+  },
+  {
+    "contry": "Chad",
+    "code": "235",
+    "iso": "TD / TCD"
+  },
+  {
+    "contry": "Chile",
+    "code": "56",
+    "iso": "CL / CHL"
+  },
+  {
+    "contry": "China",
+    "code": "86",
+    "iso": "CN / CHN"
+  },
+  {
+    "contry": "Christmas Island",
+    "code": "61",
+    "iso": "CX / CXR"
+  },
+  {
+    "contry": "Cocos Islands",
+    "code": "61",
+    "iso": "CC / CCK"
+  },
+  {
+    "contry": "Colombia",
+    "code": "57",
+    "iso": "CO / COL"
+  },
+  {
+    "contry": "Comoros",
+    "code": "269",
+    "iso": "KM / COM"
+  },
+  {
+    "contry": "Cook Islands",
+    "code": "682",
+    "iso": "CK / COK"
+  },
+  {
+    "contry": "Costa Rica",
+    "code": "506",
+    "iso": "CR / CRI"
+  },
+  {
+    "contry": "Croatia",
+    "code": "385",
+    "iso": "HR / HRV"
+  },
+  {
+    "contry": "Cuba",
+    "code": "53",
+    "iso": "CU / CUB"
+  },
+  {
+    "contry": "Curacao",
+    "code": "599",
+    "iso": "CW / CUW"
+  },
+  {
+    "contry": "Cyprus",
+    "code": "357",
+    "iso": "CY / CYP"
+  },
+  {
+    "contry": "Czech Republic",
+    "code": "420",
+    "iso": "CZ / CZE"
+  },
+  {
+    "contry": "Democratic Republic of the Congo",
+    "code": "243",
+    "iso": "CD / COD"
+  },
+  {
+    "contry": "Denmark",
+    "code": "45",
+    "iso": "DK / DNK"
+  },
+  {
+    "contry": "Djibouti",
+    "code": "253",
+    "iso": "DJ / DJI"
+  },
+  {
+    "contry": "Dominica",
+    "code": "1-767",
+    "iso": "DM / DMA"
+  },
+  {
+    "contry": "Dominican Republic",
+    "code": "1-809, 1-829, 1-849",
+    "iso": "DO / DOM"
+  },
+  {
+    "contry": "East Timor",
+    "code": "670",
+    "iso": "TL / TLS"
+  },
+  {
+    "contry": "Ecuador",
+    "code": "593",
+    "iso": "EC / ECU"
+  },
+  {
+    "contry": "Egypt",
+    "code": "20",
+    "iso": "EG / EGY"
+  },
+  {
+    "contry": "El Salvador",
+    "code": "503",
+    "iso": "SV / SLV"
+  },
+  {
+    "contry": "Equatorial Guinea",
+    "code": "240",
+    "iso": "GQ / GNQ"
+  },
+  {
+    "contry": "Eritrea",
+    "code": "291",
+    "iso": "ER / ERI"
+  },
+  {
+    "contry": "Estonia",
+    "code": "372",
+    "iso": "EE / EST"
+  },
+  {
+    "contry": "Ethiopia",
+    "code": "251",
+    "iso": "ET / ETH"
+  },
+  {
+    "contry": "Falkland Islands",
+    "code": "500",
+    "iso": "FK / FLK"
+  },
+  {
+    "contry": "Faroe Islands",
+    "code": "298",
+    "iso": "FO / FRO"
+  },
+  {
+    "contry": "Fiji",
+    "code": "679",
+    "iso": "FJ / FJI"
+  },
+  {
+    "contry": "Finland",
+    "code": "358",
+    "iso": "FI / FIN"
+  },
+  {
+    "contry": "France",
+    "code": "33",
+    "iso": "FR / FRA"
+  },
+  {
+    "contry": "French Polynesia",
+    "code": "689",
+    "iso": "PF / PYF"
+  },
+  {
+    "contry": "Gabon",
+    "code": "241",
+    "iso": "GA / GAB"
+  },
+  {
+    "contry": "Gambia",
+    "code": "220",
+    "iso": "GM / GMB"
+  },
+  {
+    "contry": "Georgia",
+    "code": "995",
+    "iso": "GE / GEO"
+  },
+  {
+    "contry": "Germany",
+    "code": "49",
+    "iso": "DE / DEU"
+  },
+  {
+    "contry": "Ghana",
+    "code": "233",
+    "iso": "GH / GHA"
+  },
+  {
+    "contry": "Gibraltar",
+    "code": "350",
+    "iso": "GI / GIB"
+  },
+  {
+    "contry": "Greece",
+    "code": "30",
+    "iso": "GR / GRC"
+  },
+  {
+    "contry": "Greenland",
+    "code": "299",
+    "iso": "GL / GRL"
+  },
+  {
+    "contry": "Grenada",
+    "code": "1-473",
+    "iso": "GD / GRD"
+  },
+  {
+    "contry": "Guam",
+    "code": "1-671",
+    "iso": "GU / GUM"
+  },
+  {
+    "contry": "Guatemala",
+    "code": "502",
+    "iso": "GT / GTM"
+  },
+  {
+    "contry": "Guernsey",
+    "code": "44-1481",
+    "iso": "GG / GGY"
+  },
+  {
+    "contry": "Guinea",
+    "code": "224",
+    "iso": "GN / GIN"
+  },
+  {
+    "contry": "Guinea-Bissau",
+    "code": "245",
+    "iso": "GW / GNB"
+  },
+  {
+    "contry": "Guyana",
+    "code": "592",
+    "iso": "GY / GUY"
+  },
+  {
+    "contry": "Haiti",
+    "code": "509",
+    "iso": "HT / HTI"
+  },
+  {
+    "contry": "Honduras",
+    "code": "504",
+    "iso": "HN / HND"
+  },
+  {
+    "contry": "Hong Kong",
+    "code": "852",
+    "iso": "HK / HKG"
+  },
+  {
+    "contry": "Hungary",
+    "code": "36",
+    "iso": "HU / HUN"
+  },
+  {
+    "contry": "Iceland",
+    "code": "354",
+    "iso": "IS / ISL"
+  },
+  {
+    "contry": "India",
+    "code": "91",
+    "iso": "IN / IND"
+  },
+  {
+    "contry": "Indonesia",
+    "code": "62",
+    "iso": "ID / IDN"
+  },
+  {
+    "contry": "Iran",
+    "code": "98",
+    "iso": "IR / IRN"
+  },
+  {
+    "contry": "Iraq",
+    "code": "964",
+    "iso": "IQ / IRQ"
+  },
+  {
+    "contry": "Ireland",
+    "code": "353",
+    "iso": "IE / IRL"
+  },
+  {
+    "contry": "Isle of Man",
+    "code": "44-1624",
+    "iso": "IM / IMN"
+  },
+  {
+    "contry": "Israel",
+    "code": "972",
+    "iso": "IL / ISR"
+  },
+  {
+    "contry": "Italy",
+    "code": "39",
+    "iso": "IT / ITA"
+  },
+  {
+    "contry": "Ivory Coast",
+    "code": "225",
+    "iso": "CI / CIV"
+  },
+  {
+    "contry": "Jamaica",
+    "code": "1-876",
+    "iso": "JM / JAM"
+  },
+  {
+    "contry": "Japan",
+    "code": "81",
+    "iso": "JP / JPN"
+  },
+  {
+    "contry": "Jersey",
+    "code": "44-1534",
+    "iso": "JE / JEY"
+  },
+  {
+    "contry": "Jordan",
+    "code": "962",
+    "iso": "JO / JOR"
+  },
+  {
+    "contry": "Kazakhstan",
+    "code": "7",
+    "iso": "KZ / KAZ"
+  },
+  {
+    "contry": "Kenya",
+    "code": "254",
+    "iso": "KE / KEN"
+  },
+  {
+    "contry": "Kiribati",
+    "code": "686",
+    "iso": "KI / KIR"
+  },
+  {
+    "contry": "Kosovo",
+    "code": "383",
+    "iso": "XK / XKX"
+  },
+  {
+    "contry": "Kuwait",
+    "code": "965",
+    "iso": "KW / KWT"
+  },
+  {
+    "contry": "Kyrgyzstan",
+    "code": "996",
+    "iso": "KG / KGZ"
+  },
+  {
+    "contry": "Laos",
+    "code": "856",
+    "iso": "LA / LAO"
+  },
+  {
+    "contry": "Latvia",
+    "code": "371",
+    "iso": "LV / LVA"
+  },
+  {
+    "contry": "Lebanon",
+    "code": "961",
+    "iso": "LB / LBN"
+  },
+  {
+    "contry": "Lesotho",
+    "code": "266",
+    "iso": "LS / LSO"
+  },
+  {
+    "contry": "Liberia",
+    "code": "231",
+    "iso": "LR / LBR"
+  },
+  {
+    "contry": "Libya",
+    "code": "218",
+    "iso": "LY / LBY"
+  },
+  {
+    "contry": "Liechtenstein",
+    "code": "423",
+    "iso": "LI / LIE"
+  },
+  {
+    "contry": "Lithuania",
+    "code": "370",
+    "iso": "LT / LTU"
+  },
+  {
+    "contry": "Luxembourg",
+    "code": "352",
+    "iso": "LU / LUX"
+  },
+  {
+    "contry": "Macau",
+    "code": "853",
+    "iso": "MO / MAC"
+  },
+  {
+    "contry": "Macedonia",
+    "code": "389",
+    "iso": "MK / MKD"
+  },
+  {
+    "contry": "Madagascar",
+    "code": "261",
+    "iso": "MG / MDG"
+  },
+  {
+    "contry": "Malawi",
+    "code": "265",
+    "iso": "MW / MWI"
+  },
+  {
+    "contry": "Malaysia",
+    "code": "60",
+    "iso": "MY / MYS"
+  },
+  {
+    "contry": "Maldives",
+    "code": "960",
+    "iso": "MV / MDV"
+  },
+  {
+    "contry": "Mali",
+    "code": "223",
+    "iso": "ML / MLI"
+  },
+  {
+    "contry": "Malta",
+    "code": "356",
+    "iso": "MT / MLT"
+  },
+  {
+    "contry": "Marshall Islands",
+    "code": "692",
+    "iso": "MH / MHL"
+  },
+  {
+    "contry": "Mauritania",
+    "code": "222",
+    "iso": "MR / MRT"
+  },
+  {
+    "contry": "Mauritius",
+    "code": "230",
+    "iso": "MU / MUS"
+  },
+  {
+    "contry": "Mayotte",
+    "code": "262",
+    "iso": "YT / MYT"
+  },
+  {
+    "contry": "Mexico",
+    "code": "52",
+    "iso": "MX / MEX"
+  },
+  {
+    "contry": "Micronesia",
+    "code": "691",
+    "iso": "FM / FSM"
+  },
+  {
+    "contry": "Moldova",
+    "code": "373",
+    "iso": "MD / MDA"
+  },
+  {
+    "contry": "Monaco",
+    "code": "377",
+    "iso": "MC / MCO"
+  },
+  {
+    "contry": "Mongolia",
+    "code": "976",
+    "iso": "MN / MNG"
+  },
+  {
+    "contry": "Montenegro",
+    "code": "382",
+    "iso": "ME / MNE"
+  },
+  {
+    "contry": "Montserrat",
+    "code": "1-664",
+    "iso": "MS / MSR"
+  },
+  {
+    "contry": "Morocco",
+    "code": "212",
+    "iso": "MA / MAR"
+  },
+  {
+    "contry": "Mozambique",
+    "code": "258",
+    "iso": "MZ / MOZ"
+  },
+  {
+    "contry": "Myanmar",
+    "code": "95",
+    "iso": "MM / MMR"
+  },
+  {
+    "contry": "Namibia",
+    "code": "264",
+    "iso": "NA / NAM"
+  },
+  {
+    "contry": "Nauru",
+    "code": "674",
+    "iso": "NR / NRU"
+  },
+  {
+    "contry": "Nepal",
+    "code": "977",
+    "iso": "NP / NPL"
+  },
+  {
+    "contry": "Netherlands",
+    "code": "31",
+    "iso": "NL / NLD"
+  },
+  {
+    "contry": "Netherlands Antilles",
+    "code": "599",
+    "iso": "AN / ANT"
+  },
+  {
+    "contry": "New Caledonia",
+    "code": "687",
+    "iso": "NC / NCL"
+  },
+  {
+    "contry": "New Zealand",
+    "code": "64",
+    "iso": "NZ / NZL"
+  },
+  {
+    "contry": "Nicaragua",
+    "code": "505",
+    "iso": "NI / NIC"
+  },
+  {
+    "contry": "Niger",
+    "code": "227",
+    "iso": "NE / NER"
+  },
+  {
+    "contry": "Nigeria",
+    "code": "234",
+    "iso": "NG / NGA"
+  },
+  {
+    "contry": "Niue",
+    "code": "683",
+    "iso": "NU / NIU"
+  },
+  {
+    "contry": "North Korea",
+    "code": "850",
+    "iso": "KP / PRK"
+  },
+  {
+    "contry": "Northern Mariana Islands",
+    "code": "1-670",
+    "iso": "MP / MNP"
+  },
+  {
+    "contry": "Norway",
+    "code": "47",
+    "iso": "NO / NOR"
+  },
+  {
+    "contry": "Oman",
+    "code": "968",
+    "iso": "OM / OMN"
+  },
+  {
+    "contry": "Pakistan",
+    "code": "92",
+    "iso": "PK / PAK"
+  },
+  {
+    "contry": "Palau",
+    "code": "680",
+    "iso": "PW / PLW"
+  },
+  {
+    "contry": "Palestine",
+    "code": "970",
+    "iso": "PS / PSE"
+  },
+  {
+    "contry": "Panama",
+    "code": "507",
+    "iso": "PA / PAN"
+  },
+  {
+    "contry": "Papua New Guinea",
+    "code": "675",
+    "iso": "PG / PNG"
+  },
+  {
+    "contry": "Paraguay",
+    "code": "595",
+    "iso": "PY / PRY"
+  },
+  {
+    "contry": "Peru",
+    "code": "51",
+    "iso": "PE / PER"
+  },
+  {
+    "contry": "Philippines",
+    "code": "63",
+    "iso": "PH / PHL"
+  },
+  {
+    "contry": "Pitcairn",
+    "code": "64",
+    "iso": "PN / PCN"
+  },
+  {
+    "contry": "Poland",
+    "code": "48",
+    "iso": "PL / POL"
+  },
+  {
+    "contry": "Portugal",
+    "code": "351",
+    "iso": "PT / PRT"
+  },
+  {
+    "contry": "Puerto Rico",
+    "code": "1-787, 1-939",
+    "iso": "PR / PRI"
+  },
+  {
+    "contry": "Qatar",
+    "code": "974",
+    "iso": "QA / QAT"
+  },
+  {
+    "contry": "Republic of the Congo",
+    "code": "242",
+    "iso": "CG / COG"
+  },
+  {
+    "contry": "Reunion",
+    "code": "262",
+    "iso": "RE / REU"
+  },
+  {
+    "contry": "Romania",
+    "code": "40",
+    "iso": "RO / ROU"
+  },
+  {
+    "contry": "Russia",
+    "code": "7",
+    "iso": "RU / RUS"
+  },
+  {
+    "contry": "Rwanda",
+    "code": "250",
+    "iso": "RW / RWA"
+  },
+  {
+    "contry": "Saint Barthelemy",
+    "code": "590",
+    "iso": "BL / BLM"
+  },
+  {
+    "contry": "Saint Helena",
+    "code": "290",
+    "iso": "SH / SHN"
+  },
+  {
+    "contry": "Saint Kitts and Nevis",
+    "code": "1-869",
+    "iso": "KN / KNA"
+  },
+  {
+    "contry": "Saint Lucia",
+    "code": "1-758",
+    "iso": "LC / LCA"
+  },
+  {
+    "contry": "Saint Martin",
+    "code": "590",
+    "iso": "MF / MAF"
+  },
+  {
+    "contry": "Saint Pierre and Miquelon",
+    "code": "508",
+    "iso": "PM / SPM"
+  },
+  {
+    "contry": "Saint Vincent and the Grenadines",
+    "code": "1-784",
+    "iso": "VC / VCT"
+  },
+  {
+    "contry": "Samoa",
+    "code": "685",
+    "iso": "WS / WSM"
+  },
+  {
+    "contry": "San Marino",
+    "code": "378",
+    "iso": "SM / SMR"
+  },
+  {
+    "contry": "Sao Tome and Principe",
+    "code": "239",
+    "iso": "ST / STP"
+  },
+  {
+    "contry": "Saudi Arabia",
+    "code": "966",
+    "iso": "SA / SAU"
+  },
+  {
+    "contry": "Senegal",
+    "code": "221",
+    "iso": "SN / SEN"
+  },
+  {
+    "contry": "Serbia",
+    "code": "381",
+    "iso": "RS / SRB"
+  },
+  {
+    "contry": "Seychelles",
+    "code": "248",
+    "iso": "SC / SYC"
+  },
+  {
+    "contry": "Sierra Leone",
+    "code": "232",
+    "iso": "SL / SLE"
+  },
+  {
+    "contry": "Singapore",
+    "code": "65",
+    "iso": "SG / SGP"
+  },
+  {
+    "contry": "Sint Maarten",
+    "code": "1-721",
+    "iso": "SX / SXM"
+  },
+  {
+    "contry": "Slovakia",
+    "code": "421",
+    "iso": "SK / SVK"
+  },
+  {
+    "contry": "Slovenia",
+    "code": "386",
+    "iso": "SI / SVN"
+  },
+  {
+    "contry": "Solomon Islands",
+    "code": "677",
+    "iso": "SB / SLB"
+  },
+  {
+    "contry": "Somalia",
+    "code": "252",
+    "iso": "SO / SOM"
+  },
+  {
+    "contry": "South Africa",
+    "code": "27",
+    "iso": "ZA / ZAF"
+  },
+  {
+    "contry": "South Korea",
+    "code": "82",
+    "iso": "KR / KOR"
+  },
+  {
+    "contry": "South Sudan",
+    "code": "211",
+    "iso": "SS / SSD"
+  },
+  {
+    "contry": "Spain",
+    "code": "34",
+    "iso": "ES / ESP"
+  },
+  {
+    "contry": "Sri Lanka",
+    "code": "94",
+    "iso": "LK / LKA"
+  },
+  {
+    "contry": "Sudan",
+    "code": "249",
+    "iso": "SD / SDN"
+  },
+  {
+    "contry": "Suriname",
+    "code": "597",
+    "iso": "SR / SUR"
+  },
+  {
+    "contry": "Svalbard and Jan Mayen",
+    "code": "47",
+    "iso": "SJ / SJM"
+  },
+  {
+    "contry": "Swaziland",
+    "code": "268",
+    "iso": "SZ / SWZ"
+  },
+  {
+    "contry": "Sweden",
+    "code": "46",
+    "iso": "SE / SWE"
+  },
+  {
+    "contry": "Switzerland",
+    "code": "41",
+    "iso": "CH / CHE"
+  },
+  {
+    "contry": "Syria",
+    "code": "963",
+    "iso": "SY / SYR"
+  },
+  {
+    "contry": "Taiwan",
+    "code": "886",
+    "iso": "TW / TWN"
+  },
+  {
+    "contry": "Tajikistan",
+    "code": "992",
+    "iso": "TJ / TJK"
+  },
+  {
+    "contry": "Tanzania",
+    "code": "255",
+    "iso": "TZ / TZA"
+  },
+  {
+    "contry": "Thailand",
+    "code": "66",
+    "iso": "TH / THA"
+  },
+  {
+    "contry": "Togo",
+    "code": "228",
+    "iso": "TG / TGO"
+  },
+  {
+    "contry": "Tokelau",
+    "code": "690",
+    "iso": "TK / TKL"
+  },
+  {
+    "contry": "Tonga",
+    "code": "676",
+    "iso": "TO / TON"
+  },
+  {
+    "contry": "Trinidad and Tobago",
+    "code": "1-868",
+    "iso": "TT / TTO"
+  },
+  {
+    "contry": "Tunisia",
+    "code": "216",
+    "iso": "TN / TUN"
+  },
+  {
+    "contry": "Turkey",
+    "code": "90",
+    "iso": "TR / TUR"
+  },
+  {
+    "contry": "Turkmenistan",
+    "code": "993",
+    "iso": "TM / TKM"
+  },
+  {
+    "contry": "Turks and Caicos Islands",
+    "code": "1-649",
+    "iso": "TC / TCA"
+  },
+  {
+    "contry": "Tuvalu",
+    "code": "688",
+    "iso": "TV / TUV"
+  },
+  {
+    "contry": "U.S. Virgin Islands",
+    "code": "1-340",
+    "iso": "VI / VIR"
+  },
+  {
+    "contry": "Uganda",
+    "code": "256",
+    "iso": "UG / UGA"
+  },
+  {
+    "contry": "Ukraine",
+    "code": "380",
+    "iso": "UA / UKR"
+  },
+  {
+    "contry": "United Arab Emirates",
+    "code": "971",
+    "iso": "AE / ARE"
+  },
+  {
+    "contry": "United Kingdom",
+    "code": "44",
+    "iso": "GB / GBR"
+  },
+  {
+    "contry": "United States",
+    "code": "1",
+    "iso": "US / USA"
+  },
+  {
+    "contry": "Uruguay",
+    "code": "598",
+    "iso": "UY / URY"
+  },
+  {
+    "contry": "Uzbekistan",
+    "code": "998",
+    "iso": "UZ / UZB"
+  },
+  {
+    "contry": "Vanuatu",
+    "code": "678",
+    "iso": "VU / VUT"
+  },
+  {
+    "contry": "Vatican",
+    "code": "379",
+    "iso": "VA / VAT"
+  },
+  {
+    "contry": "Venezuela",
+    "code": "58",
+    "iso": "VE / VEN"
+  },
+  {
+    "contry": "Vietnam",
+    "code": "84",
+    "iso": "VN / VNM"
+  },
+  {
+    "contry": "Wallis and Futuna",
+    "code": "681",
+    "iso": "WF / WLF"
+  },
+  {
+    "contry": "Western Sahara",
+    "code": "212",
+    "iso": "EH / ESH"
+  },
+  {
+    "contry": "Yemen",
+    "code": "967",
+    "iso": "YE / YEM"
+  },
+  {
+    "contry": "Zambia",
+    "code": "260",
+    "iso": "ZM / ZMB"
+  },
+  {
+    "contry": "Zimbabwe",
+    "code": "263",
+    "iso": "ZW / ZWE"
+  }
+]
