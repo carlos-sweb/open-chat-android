@@ -44,6 +44,10 @@
 </div>
 
 
+<code id="agent" >
+		
+</code>
+
 
 <script src="code-contry/dist/contrycode.js"></script>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -79,12 +83,13 @@ $("#open").on('click',
 function(){ 
 	
 	const val = $("#codecontry").val()+$("#phone").val();
-	
 
-	alert("hola");
+
 
 	//window.open("whatsapp://send/?phone="+val+"")
 	
 });
+
+$("#agent").text( JSON.stringify(window.navigator.userAgent,null,2) )
 </script>
 </body></html>
