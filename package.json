@@ -9,10 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@openfonts/baloo-thambi-2_latin": "0.0.1",
+    "alpinejs": "^2.2.5",
     "flexboxgrid": "^6.3.1",
     "normalize.css": "^8.0.1",
-    "spectre.css": "^0.5.8",
-    "zepto": "^1.2.0"
+    "spectre.css": "^0.5.8"
   }
 }

@@ -2,32 +2,32 @@
 <html lang="en"> <head>
 <link rel="icon" type="image/png" href="favicon.png">
 <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
 <link rel="stylesheet" href="node_modules/flexboxgrid/dist/flexboxgrid.min.css" >
 <link rel="stylesheet" href="node_modules/spectre.css/dist/spectre.min.css">
 <link rel="stylesheet" href="node_modules/spectre.css/dist/spectre-exp.min.css">
 <link rel="stylesheet" href="node_modules/spectre.css/dist/spectre-icons.min.css">
-<link rel="stylesheet" href="node_modules/@openfonts/baloo-thambi-2_latin/index.css">
-<link rel="stylesheet" href="css/index.css">
 <title>WatsApp Non Contact!</title>
 <script>
 </script>
 </head> 
 <body>
 <div class="container" style="padding-top:20px;">
-<div class="column col-xs-12 col-sm-10 col-md-8 col-lg-5 center-xs">
+<div class="column col-xs-12 center-xs">
 	<h1 class="h2" >Whatsapp Non Contact!</h1>
 </div>
 <div class="divider"></div>
-<div class="column col-xs-12 col-sm-10 col-md-8 col-lg-5">
+<div class="column" >
 <div class="box">
-	<div class="form-group">
-	<label class="form-label label-lg">Contry Code</label>	
-	 <select id="codecontry" class="form-select select-lg"></select></div>
+	
+	<div class="form-group"  >
+		<label class="form-label label-lg">Contry Code</label>	
+	 	<select id="codecontry" class="form-select select-lg" >
+	 	</select>
+	</div>
 		  	<div class="form-group">
-		  		<label class="form-label label-lg">Number Phone</label>
-		  		
+		  	<label class="form-label label-lg">Number Phone</label>	
 		  	<div class="input-group">
 		  		<input id="phone" name="phone" type="number" class="form-input input-lg" autocomplete="off" autocapitalize="off" pattern="[0-9]" />
 		  		<span id="paste" class="input-group-addon tooltip" data-tooltip="Pasted!"><i class="icon icon-share "></i></span>
@@ -37,17 +37,39 @@
 		  	</div>
 		  </div>
 
-		  <div class="box center-xs" style="padding-top:50px;" >  	
-		  	<button id="open" style="margin-top:8px;" class="btn btn-primary btn-lg"><i class="icon icon-message"></i>&nbsp;Open&nbsp;Chat</button>  	
+		  <div x-data='WspOpen()' class="box center-xs" style="padding-top:50px;" >  	
+		  	<button x-on:click='open' style="margin-top:8px;" class="btn btn-primary btn-lg"><i class="icon icon-message"></i>&nbsp;Open&nbsp;Chat</button>  	
 		  </div>
 
 	</div>
+
 </div>
 
-<script src="code-contry/dist/contrycode.js"></script>
-<script src="node_modules/zepto/dist/zepto.min.js"></script>
+
+<script src="code-contry/dist/contrycodes.js"></script>
+<script src="node_modules/alpinejs/dist/alpine.js" ></script>
 <script>
 
+let options = '';
+contrycodes.forEach((contrycode)=>{
+   options += '<option value=\''+contrycode.code+'\'>'+contrycode.contry+'&nbsp;/&nbsp;'+contrycode.code+'</option>'
+}) 
+document.getElementById('codecontry').innerHTML=options;
+
+var WspOpen = function(){
+	return {
+		open:function(){
+
+			const codecontry = document.getElementById('codecontry').value;
+			const phone = document.getElementById('phone').value;
+			const phonefull = codecontry+phone;
+			window.open("whatsapp://send/?phone="+phonefull+"")
+		}
+	}
+}
+
+
+/*
 async function paste() { 
 	const text = await navigator.clipboard.readText();
  $("#phone").val(text)
@@ -72,13 +94,9 @@ $("#paste").on("click",()=>{
 	 paste();
 })
 
-$("#open").on('click',function(){ 
-		
-	const val = $("#codecontry").val()+$("#phone").val();
+*/
 
-	window.open("whatsapp://send/?phone="+val+"")
-	
-});
+
 
 </script>
 </body>
