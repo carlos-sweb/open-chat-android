@@ -53,6 +53,14 @@
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/axios/dist/axios.min.js"></script>
 <script>
+
+window.addEventListener("ns-bridge-ready", function(e) {
+    var nsWebViewBridge = e.detail || window.nsWebViewBridge;
+	
+	document.getElementById("agent").innerHTML = "nsWebViewBridge";	
+
+    // do stuff here
+});
 	
 async function paste() { 
 	const text = await navigator.clipboard.readText();
