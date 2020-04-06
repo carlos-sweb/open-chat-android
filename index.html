@@ -54,10 +54,13 @@
 <script src="node_modules/axios/dist/axios.min.js"></script>
 <script>
 
+var nsWebViewBridge = null;
+
 window.addEventListener("ns-bridge-ready", function(e) {
-    var nsWebViewBridge = e.detail || window.nsWebViewBridge;
 	
-	document.getElementById("agent").innerHTML = "nsWebViewBridge";	
+    nsWebViewBridge = e.detail || window.nsWebViewBridge;
+	
+	document.getElementById("open").setAttribute("ci-nativescript",null);
 
     // do stuff here
 });
@@ -95,6 +98,10 @@ $("#open").on('click',function(){
 	if( !( this.getAttribute("ci-nativescript") === null ) ){
 
 		window.open("whatsapp://send/?phone="+val+"")
+
+	}else{
+
+		$("#agent").html("Correcte")
 
 	}
 	
