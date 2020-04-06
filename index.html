@@ -105,6 +105,8 @@ $("#open").on('click',function(){
 
 	}else{
 
+		window.nsWebViewBridge.emit("openwsp",val);
+
 		$("#agent").html("Correcte")
 
 	}
