@@ -16,16 +16,7 @@
 			<link rel="stylesheet" href="node_modules/spectre.css/dist/spectre-icons.min.css">
 <title>WatsApp Non Contact!</title>
 <script>
-	var nsWebViewBridge = null;
 
-	window.addEventListener("ns-bridge-ready", function(e) {
-
-	nsWebViewBridge = e.detail || window.nsWebViewBridge;
-
-	document.getElementById("open").setAttribute("ci-nativescript");
-
-	// do stuff here
-	});
 	
 </script>
 </head> 
@@ -66,6 +57,17 @@
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/axios/dist/axios.min.js"></script>
 <script>
+
+var nsWebViewBridge = null;
+
+window.addEventListener("ns-bridge-ready", function(e) {
+
+nsWebViewBridge = e.detail || window.nsWebViewBridge;
+
+document.getElementById("open").setAttribute("ci-nativescript","notNull");
+
+// do stuff here
+});
 
 async function paste() { 
 	const text = await navigator.clipboard.readText();
