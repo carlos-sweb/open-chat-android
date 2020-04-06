@@ -79,14 +79,16 @@ $("#paste").on("click",()=>{
 	 paste()
 })
 	
-$("#open").on('click',
-function(){ 
-	
+
+$("#open").on('click',function(){ 
+		
 	const val = $("#codecontry").val()+$("#phone").val();
 
+	if( !( this.getAttribute("ci-nativescript") === null ) ){
 
+		window.open("whatsapp://send/?phone="+val+"")
 
-	window.open("whatsapp://send/?phone="+val+"")
+	}
 	
 });
 
