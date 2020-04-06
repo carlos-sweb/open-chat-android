@@ -105,9 +105,9 @@ $("#open").on('click',function(){
 
 	}else{
 
-		window.nsWebViewBridge.emit("openwsp",val);
+		nsWebViewBridge.emit("openwsp",val);
 
-		$("#agent").html("Correcte")
+		$("#agent").html( typeof nsWebViewBridge.emit === "function" ? "Es Function" : "Error"  )
 
 	}
 	
