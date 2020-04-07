@@ -1,12 +1,12 @@
 {
-  "name": "ws",
+  "name": "whatsapp-non-contact",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple App For open Chat Wsp non Contact",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Carlos Illesca",
   "license": "ISC",
   "dependencies": {
     "alpinejs": "^2.2.5",
