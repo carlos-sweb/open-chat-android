@@ -12,27 +12,98 @@
 <script>
 </script>
 </head> 
-<body>
-<div class="container" style="padding-top:20px;">
-<div class="column col-xs-12 center-xs">
-	<h1 class="h2" >Whatsapp Non Contact!</h1>
+<body class="container">
+
+<div class="row center-xs" style="padding-top:20px;" >
+    <div class="col-xs-12 col-sm-9 col-md-6 col-lg-5 middle-xs"  >
+        	<img src="favicon.png" style="height:75px;" >
+    </div>
+</div>	
+
+<div class="row center-xs" style="padding-top:20px;" >
+    <div class="col-xs-12 col-sm-9 col-md-6 col-lg-5 middle-xs"  >
+        	<h1 class="h2" >Whatsapp Non Contact!</h1>
+    </div>
 </div>
+
 <div class="divider"></div>
+
+
+<div class="row center-xs" style="padding-top:20px;" >
+    <div class="col-xs-12 col-sm-9 col-md-6 col-lg-5 middle-xs"  >
+		<div class="form-group start-xs"  >
+			<label class="form-label label-lg">Contry Code</label>	
+			<select id="codecontry" class="form-select select-lg" ></select>
+		</div>
+    </div>
+</div>
+
+<div class="row center-xs" style="padding-top:20px;" >
+    <div class="col-xs-12 col-sm-9 col-md-6 col-lg-5 middle-xs"  >
+		<div class="form-group start-xs"  >
+			
+			
+			<div class="form-group">
+		  	<label class="form-label label-lg">Number Phone</label>	
+		  	<div class="input-group">
+		  		<input  id="phone" 
+		  				name="phone" 
+		  				type="number" 
+		  				class="form-input input-lg" 
+		  				autocomplete="off" 
+		  				autocapitalize="off" 
+		  				pattern="[0-9]" />
+
+		  		<span 
+		  				id="paste" 
+		  				class="input-group-addon tooltip" 
+		  				data-tooltip="Pasted!">
+		  		<i class="icon icon-share "></i>
+		  		</span>
+		  		<span id="copy" 
+		  			  class="input-group-addon tooltip" 
+		  			  data-tooltip="Copied!">
+		  		<i class="icon icon-copy"></i></span>
+		  	</div>
+			</div>
+    	</div>
+	</div>
+</div>
+
+
+ <div x-data='WspOpen()' class="box center-xs" style="padding-top:50px;" >  	
+		  	<button x-on:click='open' style="margin-top:8px;" class="btn btn-primary btn-lg"><i class="icon icon-message"></i>&nbsp;Open&nbsp;Chat</button>  	
+</div>
+
+
+
+<!--
 <div class="column" >
 <div class="box">
 	
-	<div class="form-group"  >
-		<label class="form-label label-lg">Contry Code</label>	
-	 	<select id="codecontry" class="form-select select-lg" >
-	 	</select>
-	</div>
+	
 		  	<div class="form-group">
 		  	<label class="form-label label-lg">Number Phone</label>	
 		  	<div class="input-group">
-		  		<input id="phone" name="phone" type="number" class="form-input input-lg" autocomplete="off" autocapitalize="off" pattern="[0-9]" />
-		  		<span id="paste" class="input-group-addon tooltip" data-tooltip="Pasted!"><i class="icon icon-share "></i></span>
-		  		<span id="copy" class="input-group-addon tooltip" data-tooltip="Copied!"><i class="icon icon-copy"></i></span>
-		  		</div>
+		  		<input  id="phone" 
+		  				name="phone" 
+		  				type="number" 
+		  				class="form-input input-lg" 
+		  				autocomplete="off" 
+		  				autocapitalize="off" 
+		  				pattern="[0-9]" />
+
+		  		<span 
+		  				id="paste" 
+		  				class="input-group-addon tooltip" 
+		  				data-tooltip="Pasted!">
+		  		<i class="icon icon-share "></i>
+		  		</span>
+		  		<span id="copy" 
+		  			  class="input-group-addon tooltip" 
+		  			  data-tooltip="Copied!">
+		  		<i class="icon icon-copy"></i></span>
+		  	</div>
 		  		
 		  	</div>
 		  </div>
@@ -43,7 +114,7 @@
 
 	</div>
 
-</div>
+</div>-->
 
 
 <script src="code-contry/dist/contrycodes.js"></script>
