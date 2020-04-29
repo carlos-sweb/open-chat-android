@@ -9,7 +9,6 @@
   "author": "Carlos Illesca",
   "license": "ISC",
   "dependencies": {
-    "alpinejs": "^2.2.5",
     "fg-loadcss": "^3.0.0",
     "flexboxgrid": "^6.3.1",
     "normalize.css": "^8.0.1",
