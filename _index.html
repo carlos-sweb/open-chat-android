@@ -4,15 +4,6 @@
 		<link rel="icon" type="image/png" href="favicon.png">
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-			<link 
-
-			rel="import"
-			href="node_modules/normalize.css/normalize.css" 
-			async >
-			<link rel="import" href="node_modules/flexboxgrid/dist/flexboxgrid.min.css" async >
-			<link rel="import" href="node_modules/spectre.css/dist/spectre.min.css" async >
-			<link rel="import" href="node_modules/spectre.css/dist/spectre-exp.min.css" async >
-			<link rel="import" href="node_modules/spectre.css/dist/spectre-icons.min.css" async>
 		<title>WatsApp Non Contact!</title>
 	</head> 
 <body class="container">
@@ -78,8 +69,17 @@
 		  	<button x-on:click='open' style="margin-top:8px;" class="btn btn-primary btn-lg"><i class="icon icon-message"></i>&nbsp;Open&nbsp;Chat</button>  	
 </div>
 
+<script type="text/javascript" src="node_modules/fg-loadcss/dist/loadCSS.min.js" ></script>
 <script type="text/javascript" src="code-contry/dist/contrycodes.js"></script>
 <script type="text/javascript" src="node_modules/alpinejs/dist/alpine.js" ></script>
 <script type="text/javascript" src="js/main.js" ></script>
+<script type="text/javascript" >
+var css = ["node_modules/normalize.css/normalize.css",
+			"node_modules/flexboxgrid/dist/flexboxgrid.min.css",
+			"node_modules/spectre.css/dist/spectre.min.css",
+			"node_modules/spectre.css/dist/spectre-exp.min.css",
+			"node_modules/spectre.css/dist/spectre-icons.min.css"];			
+css.forEach((item)=>{window.loadCSS(item)})
+</script>
 </body>
 </html>
