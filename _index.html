@@ -5,8 +5,11 @@
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>WatsApp Non Contact!</title>
-	</head> 
-<body class="container">
+		<style>
+			.hide{display:none;visibility:hidden;}
+		</style>
+	</head>
+<body class="container hide" >
 
 <div class="row center-xs" style="padding-top:20px;" >
     <div class="col-xs-12 col-sm-9 col-md-6 col-lg-5 middle-xs"  >
@@ -79,7 +82,9 @@ var css = ["node_modules/normalize.css/normalize.css",
 			"node_modules/spectre.css/dist/spectre.min.css",
 			"node_modules/spectre.css/dist/spectre-exp.min.css",
 			"node_modules/spectre.css/dist/spectre-icons.min.css"];			
-css.forEach((item)=>{window.loadCSS(item)})
+css.forEach((item)=>{window.loadCSS(item)});
+// se podria mejor escuchando efectivamebte el evento
+setTimeout(()=>{document.querySelector("body").classList.remove("hide");},50)
 </script>
 </body>
 </html>
