@@ -1,16 +1,15 @@
-let options = '';
-contrycodes.forEach((contrycode)=>{
+
+var options = '';
+contrycodes.forEach(function(contrycode){
    options += '<option value=\''+contrycode.code+'\'>'+contrycode.contry+'&nbsp;/&nbsp;'+contrycode.code+'</option>'
 }) 
 document.getElementById('codecontry').innerHTML=options;
-
 var WspOpen = function(){
 	return {
 		open:function(){
-
-			const codecontry = document.getElementById('codecontry').value;
-			const phone = document.getElementById('phone').value;
-			const phonefull = codecontry+phone;
+			var codecontry = document.getElementById('codecontry').value;
+			var phone = document.getElementById('phone').value;
+			var phonefull = codecontry+phone;
 			window.open("whatsapp://send/?phone="+phonefull+"")
 		}
 	}
