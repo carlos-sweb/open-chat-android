@@ -1,8 +1,16 @@
 var options = '';
 
+console.log(window.localStorage.getItem(""));
+
 contrycodes.forEach(function(contrycode){
-   options += '<option value=\''+contrycode.code+'\'>'+contrycode.contry+'&nbsp;/&nbsp;'+contrycode.code+'</option>'
-}) 
+      
+   options += '<option '+ function(code){return code == window.localStorage.getItem("contryCode") ? 'selected':''}(contrycode.code) +' value=\''+contrycode.code+'\'>'+contrycode.contry+'&nbsp;/&nbsp;'+contrycode.code+'</option>'
+   
+})
+
+document.querySelector("#codecontry").addEventListener('change',function(){
+	window.localStorage.setItem("contryCode",this.value);
+}); 
 
 document.getElementById('codecontry').innerHTML=options;
 
