@@ -62,21 +62,13 @@
 
 <div class="box center-xs" style="padding-top:50px;" >  	
 	<button id="btnopen" style="margin-top:8px;" class="btn btn-primary btn-lg">
-		<i class="icon icon-message"></i>&nbsp;Open&nbsp;Chat</button>  	
+<i class="icon icon-message"></i>&nbsp;Open&nbsp;Chat</button>  	
 </div>
 
 <script type="text/javascript" src="node_modules/fg-loadcss/dist/loadCSS.min.js" ></script>
+<script type="text/javascript" src="node_modules/fg-loadcss/dist/onloadCSS.min.js" ></script>
 <script type="text/javascript" src="code-contry/dist/contrycodes.js"></script>
 <script type="text/javascript" src="js/main.min.js" ></script>
-<script type="text/javascript" >
-var css = ["node_modules/normalize.css/normalize.min.css",
-			"node_modules/flexboxgrid/dist/flexboxgrid.min.css",
-			"node_modules/spectre.css/dist/spectre.min.css",
-			"node_modules/spectre.css/dist/spectre-exp.min.css",
-			"node_modules/spectre.css/dist/spectre-icons.min.css"];			
-css.forEach((item)=>{window.loadCSS(item)});
-// se podria mejor escuchando efectivamebte el evento
-setTimeout(()=>{document.querySelector("body").classList.remove("hide");},50)
-</script>
+<script type="text/javascript" src="js/run.js" ></script>
 </body>
 </html>
