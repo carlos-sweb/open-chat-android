@@ -1,7 +1,5 @@
 var options = '';
 
-console.log(window.localStorage.getItem(""));
-
 contrycodes.forEach(function(contrycode){
       
    options += '<option '+ function(code){return code == window.localStorage.getItem("contryCode") ? 'selected':''}(contrycode.code) +' value=\''+contrycode.code+'\'>'+contrycode.contry+'&nbsp;/&nbsp;'+contrycode.code+'</option>'
