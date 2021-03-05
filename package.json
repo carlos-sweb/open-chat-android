@@ -4,14 +4,8 @@
   "description": "Simple App For open Chat Wsp non Contact",
   "main": "index.html",
   "scripts": {
-    "compile": "minify _index.html -o example.html && terser ./js/main.js -o main.min.js && terser ./js/run.js -o ./js/run.min.js"
+    "compile": "minify _index.html -o index.html && terser ./js/main.js -o main.min.js && terser ./js/run.js -o run.min.js"
   },
   "author": "Carlos Illesca",
-  "license": "ISC",
-  "dependencies": {
-    "fg-loadcss": "^3.0.0",
-    "flexboxgrid": "^6.3.1",
-    "normalize.css": "^8.0.1",
-    "spectre.css": "^0.5.8"
-  }
+  "license": "ISC"
 }
