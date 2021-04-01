@@ -27,11 +27,13 @@ function createRipple(event) {
 
 	  	if(number != null){
 	  		document.getElementById("textshow").innerText = numberPrevius + number;
+	  		document.getElementById("phone").value = numberPrevius + number;
 	  	}
 
 	  	if( event.currentTarget.hasAttribute("backspace") ){
 	  		    
 	  		document.getElementById("textshow").innerText = numberPrevius.slice(0, -1);
+	  		document.getElementById("phone").value = numberPrevius.slice(0, -1);
 	  	}
 	  	
 
