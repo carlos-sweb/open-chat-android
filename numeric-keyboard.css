@@ -1,0 +1,118 @@
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+body, html {
+  height: 100%;
+}
+
+.elevation{
+-webkit-box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+}    
+
+body{
+	background-color:#eee; 
+}	
+
+
+.wrapper-section{
+  height:100%;		
+  display: grid;	  
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows:auto 350px;
+  grid-gap: 6px;
+  grid-auto-rows: minmax(70px, auto);
+
+}
+
+.content-keyboard{		
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;		
+	justify-content:flex-end;
+	padding-bottom:20px;
+	padding-right:20px;
+	font-size:32px;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+
+
+
+.wrapper {
+
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Safari */
+-khtml-user-select: none; /* Konqueror HTML */
+-moz-user-select: none; /* Old versions of Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome, Edge, Opera and Firefox */
+  background-color:#d4d4d4; 
+  display: grid;
+  padding:6px;
+  grid-template-columns: repeat(1, 100%);
+  grid-gap: 6px;
+  grid-auto-rows: minmax(70px, auto);
+  
+}
+
+.row {		
+
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap: 6px;
+
+}
+
+.item{
+	background-color:#fff;
+	border-radius: 6px;
+	text-align:center;
+	line-height: 80px;
+
+	position: relative;
+	overflow: hidden;
+	transition: background 400ms;
+	
+}
+
+.box-success{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text-number{
+	font-size:32px;
+	font-family: 'Share Tech Mono', monospace;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+span.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple 250ms linear;
+  background-color: rgba(130,130,130, 0.7);
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
