@@ -4,9 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="google" content="notranslate">
 	<link rel="icon" type="image/png" href="favicon.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="Description" content="Simple Whatsapp aplication non contact.">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,user-scalable=0">
+	<meta name="Description" content="Simple Whatsapp aplication non contact.">	
 	<title>Whatsapp Non Contact!</title>
 
 
@@ -24,30 +23,55 @@
 		padding:0px;
 	}
 </style>
+
+<style>
+	
+#box-title{
+
+	display:grid;
+	text-align:center;
+
+}
+#box-title >h3{
+	margin:0px;
+	height:34px;
+}
+
+.content-keyboard{
+	padding-top:20px;
+	    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+#box-select{
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+
+</style>
+
 </head>
 <body>
+<div class="wrapper-section" >
 
-
-
-
-	<div class="wrapper-section" >
 	<div class="content-keyboard" >
 
 
-		<div class="">
-			<h3>Whatsapp non Contact</h3>
-			<div class="input-group">
-				<select class="form-select select-lg" id="codecontry" name="codecontry" ></select>
-				<input type="hidden" id="phone" >
-			</div>
+		<div id="box-title">
+			<h3 style="align-self: end;">Whatsapp</h3>
+			<h3 style="align-self: start;">non Contact</h3>
+			<span></span>
 		</div>
-
-		<div class="">
+		<div id="box-select">				
+				<select class="form-select select-lg" id="codecontry" name="codecontry" ></select>
+				<input type="hidden" id="phone" >			
+		</div>
+		<div id="box-number" style="display:grid;grid-template-rows:auto;align-items:center;text-align:center;" >
 			<span id="textshow">&nbsp;</span>
 		</div>
-
 	</div>
-
 
 <div class="wrapper">
   <div class="row">
@@ -85,8 +109,5 @@
 <script type="text/javascript" src="numeric-keyboard.js"></script>
 <script type="text/javascript" src="contrycodes.js" ></script>
 <script type="text/javascript" src="js/main.js"></script>
-
-
-
 </body>
 </html>
