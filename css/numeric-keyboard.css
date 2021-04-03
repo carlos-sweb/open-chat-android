@@ -26,6 +26,38 @@ body{
 }	
 
 
+#box-title{
+
+  display:grid;
+  text-align:center;
+
+}
+#box-title >h3{
+  margin:0px;
+  height:34px;
+}
+
+.content-keyboard{
+  padding-top:20px;
+      display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+#box-select{
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+#box-number{
+  display:grid;
+  grid-template-rows:auto;
+  align-items:center;
+  text-align:center;
+}
+
+
+
 .wrapper-section{
   height:100%;		
   display: grid;	  
