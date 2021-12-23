@@ -1,3 +1,3 @@
 # whatsapp-non-contact
 
-Check WebSite [https://whatsapp-non-contact.netlify.com](https://whatsapp-non-contact.netlify.com)
+Check WebSite [https://open-chat-android.netlify.com](https://open-chat-android.netlify.com)
