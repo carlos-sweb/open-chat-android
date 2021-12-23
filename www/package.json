@@ -1,0 +1,11 @@
+{
+  "name": "whatsapp-non-contact",
+  "version": "2.0.0",
+  "description": "Simple App For open Chat Wsp non Contact",
+  "main": "index.html",
+  "scripts": {
+    "compile": "minify new_version.html -o index.html && terser ./js/main.js -o ./js/main.min.js"
+  },
+  "author": "Carlos Illesca",
+  "license": "ISC"
+}

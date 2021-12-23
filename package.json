@@ -1,11 +1,15 @@
 {
-  "name": "whatsapp-non-contact",
-  "version": "2.0.0",
-  "description": "Simple App For open Chat Wsp non Contact",
-  "main": "index.html",
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
   "scripts": {
-    "compile": "minify new_version.html -o index.html && terser ./js/main.js -o ./js/main.min.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Carlos Illesca",
-  "license": "ISC"
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0"
 }
