@@ -18,3 +18,4 @@ document.getElementById('btnopen').addEventListener('click', function(){
 			var phonefull = codecontry+phone;
 			window.open("whatsapp://send/?phone="+phonefull+"")
 });
+

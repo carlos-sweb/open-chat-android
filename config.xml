@@ -1,11 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
-    <description>Sample Apache Cordova App</description>
-    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
-        Apache Cordova Team
+    <name>Open Chat</name>
+    <description>Simple Open Chat</description>
+    <author email="c4rl0sill3sc4@gmail.com" href="https://github.com/carlos-sweb/">
+        Carlos Illesca
     </author>
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="whatsapp://*/*"/>
+
+    <platform name="android">
+        <icon monochrome="res/android/res/mipmap-mdpi/ic_launcher_monochrome.png" background="res/android/res/mipmap-mdpi/ic_launcher_background.png" density="mdpi" foreground="res/android/res/mipmap-mdpi/ic_launcher_foreground.png" src="res/android/res/mipmap-mdpi/ic_launcher.png" />
+        <icon monochrome="res/android/res/mipmap-hdpi/ic_launcher_monochrome.png" background="res/android/res/mipmap-hdpi/ic_launcher_background.png" density="hdpi" foreground="res/android/res/mipmap-hdpi/ic_launcher_foreground.png" src="res/android/res/mipmap-hdpi/ic_launcher.png" />
+        <icon monochrome="res/android/res/mipmap-xhdpi/ic_launcher_monochrome.png" background="res/android/res/mipmap-xhdpi/ic_launcher_background.png" density="xhdpi" foreground="res/android/res/mipmap-xhdpi/ic_launcher_foreground.png" src="res/android/res/mipmap-xhdpi/ic_launcher.png" />
+        <icon monochrome="res/android/res/mipmap-xxhdpi/ic_launcher_monochrome.png" background="res/android/res/mipmap-xxhdpi/ic_launcher_background.png" density="xxhdpi" foreground="res/android/res/mipmap-xxhdpi/ic_launcher_foreground.png" src="res/android/res/mipmap-xxhdpi/ic_launcher.png" />
+        <icon monochrome="res/android/res/mipmap-xxxhdpi/ic_launcher_monochrome.png" background="res/android/res//mipmap-xxxhdpi/ic_launcher_background.png" density="xxxhdpi" foreground="res/android/res/mipmap-xxxhdpi/ic_launcher_foreground.png" src="res/android/res/mipmap-xxxhdpi/ic_launcher.png" />
+    </platform>
+
 </widget>

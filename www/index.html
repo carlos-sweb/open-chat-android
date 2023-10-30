@@ -1,1 +1,74 @@
-<!doctype html><html lang=en translate=no><meta charset=UTF-8><meta name=theme-color content=#eee><meta name=google content=notranslate><link rel=icon type=image/png href=favicon.png><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=0"><meta name=Description content="Simple Chat aplication non contact."><title>Open Chat Android</title><link rel=stylesheet href=css/spectre.min.css><link rel=stylesheet href=css/numeric-keyboard.css><link rel=stylesheet href=css/font.min.css><link rel=stylesheet href=css/fontmain.min.css><div class=wrapper-section><div class=content-keyboard><div id=box-title><h3 style=align-self:end>Open Chat</h3><h3 style=align-self:start>Android</h3><span></span></div><div id=box-select><select class="form-select select-lg" id=codecontry name=codecontry></select> <input type=hidden id=phone></div><div id=box-number><span id=textshow>&nbsp;</span></div></div><div class=wrapper><div class=row><div class="item elevation" number-value=1><span class=text-number>1</span></div><div class="item elevation" number-value=2><span class=text-number>2</span></div><div class="item elevation" number-value=3><span class=text-number>3</span></div><div class="item elevation box-success" backspace><span class="material-icons md-36">backspace</span></div></div><div class=row><div class="item elevation" number-value=4><span class=text-number>4</span></div><div class="item elevation" number-value=5><span class=text-number>5</span></div><div class="item elevation" number-value=6><span class=text-number>6</span></div><div class="item elevation"></div></div><div class=row><div class="item elevation" number-value=7><span class=text-number>7</span></div><div class="item elevation" number-value=8><span class=text-number>8</span></div><div class="item elevation" number-value=9><span class=text-number>9</span></div><div class="item elevation"></div></div><div class=row><div class="item elevation"><span class=text-number></span></div><div class="item elevation" number-value=0><span class=text-number>0</span></div><div class="item elevation"></div><div class="item elevation box-success" id=btnopen><span class="material-icons md-36">done</span></div></div></div></div><script src=js/numeric-keyboard.js></script><script src=js/contrycodes.js></script><script src=js/main.js></script>
+<!DOCTYPE html>
+<html lang="en" translate="no" >
+<head>	
+	<meta charset="UTF-8">
+	<meta name="theme-color" content="#eee">
+	<meta name="google" content="notranslate">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,user-scalable=0">
+	<meta name="Description" content="Simple Chat aplication non contact.">
+	<title>Open Chat Android</title>
+	<style>*{font-family: 'Share Tech Mono', monospace;}</style>
+	<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+	<link rel="stylesheet" href="node_modules/animate.css/animate.css">
+	<!--cssUtility-->
+	<link rel="stylesheet" href="cssUtility/dist/master.css">	
+	<!--<link rel="stylesheet" href="css/spectre.min.css">-->
+	<link rel="stylesheet" href="css/numeric-keyboard.css">
+	<link rel="stylesheet" href="css/font.min.css" >
+	<link rel="stylesheet" href="css/fontmain.min.css">
+</head>
+<body class="lg-flex lg-flex-row lg-justify-center md-flex md-flex-row md-justify-center" >
+<div class="gray100 lg-w-2/6 md-w-3/6 grid h-full animate__animated animate__fadeIn animate__delay-300ms" style="grid-template-rows: auto 350px;grid-auto-rows: minmax(70px, auto);" >	
+	<div class="flex flex-col overflow-hidden" >
+		<div class="h-2/6 text-center justify-end text-bluegray900 text-3xl font-bold flex flex-col">
+			<span class="block w-full">Open Chat</span>
+			<span class="block w-full" >Android</span>
+		</span></div>
+		<div class="h-2/6 pl-5 pr-5 flex flex-col justify-center">
+			<select class="normal-case text-xl h-10 w-full pt-1 pb-1 pl-2 pr-1 text-bluegray900 border-gray400 rounded border-radius-1 focus:border-deeppurple500 focus:elevation-1" id="codecontry" name="codecontry" ></select>
+				<input type="hidden" id="phone" >
+		</div>
+		<div class="h-2/6 flex flex-col justify-end text-right p-2">
+			<span id="textshow" class="block w-min10 h-min10  m-0 p-0 font-bold text-4xl text-bluegray700 tracking-widest"></span>			
+		</div>
+	</div>
+<div class="wrapper text-bluegray700 font-bold">
+  <div class="row">
+  	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="1"><span class="text-number" >1</span></div>
+  	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="2"><span class="text-number" >2</span></div>
+  	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="3"><span class="text-number" >3</span></div>
+
+  	<div data-item class="item elevation-1 box-success" backspace >
+  		<span  class="material-icons md-36 text-gray900">backspace</span>
+  	</div>
+  </div>
+  <div class="row">
+  	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="4"><span class="text-number" >4</span></div>
+  	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="5"><span class="text-number" >5</span></div>
+  	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="6"><span class="text-number" >6</span></div>
+  	<div class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" ></div>
+  </div>
+    <div class="row">
+  	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="7"><span class="text-number" >7</span></div>
+  	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="8"><span class="text-number" >8</span></div>
+  	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="9"><span class="text-number" >9</span></div>
+  	<div class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" ></div>
+  </div>
+    <div class="row">
+  	<div class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" ><span class="text-number"></span></div>
+  	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="0"><span class="text-number"  >0</span></div>
+  	<div class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" ></div>
+  	<div class="item elevation-1 box-success" id="btnopen" >
+		<span  class="material-icons md-36 text-green600">done</span>
+  	</div>
+  </div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/numeric-keyboard.js"></script>
+<script type="text/javascript" src="js/contrycodes.js" ></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
