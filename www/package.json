@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "animate.css": "^4.1.1",
-    "normalize.css": "^8.0.1"
+    "pp-events": "^1.2.3",
+    "pp-is": "^1.0.9",
+    "pp-model.js": "^1.2.7",
+    "pp-validate": "^1.0.1"
   }
 }

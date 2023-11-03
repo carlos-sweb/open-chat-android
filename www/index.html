@@ -8,8 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,user-scalable=0">
 	<meta name="Description" content="Simple Chat aplication non contact.">
 	<title>Open Chat Android</title>
-	<style>*{font-family: 'Share Tech Mono', monospace;}</style>
-	<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+	<style>*{font-family: 'Share Tech Mono', monospace;}</style>	
 	<link rel="stylesheet" href="node_modules/animate.css/animate.css">
 	<!--cssUtility-->
 	<link rel="stylesheet" href="cssUtility/dist/master.css">	
@@ -26,8 +25,14 @@
 			<span class="block w-full" >Android</span>
 		</span></div>
 		<div class="h-2/6 pl-5 pr-5 flex flex-col justify-center">
-			<select class="normal-case text-xl h-10 w-full pt-1 pb-1 pl-2 pr-1 text-bluegray900 border-gray400 rounded border-radius-1 focus:border-deeppurple500 focus:elevation-1" id="codecontry" name="codecontry" ></select>
-				<input type="hidden" id="phone" >
+			<div id="contryActive" class="cursor-pointer bc-white rounded-xl flex flex-row justify-start p-5 border-2 border-solid border-bluegray500 leading-relaxed">
+				<!--<img class="w-8 block" src="circle-flags/flags/cl.svg" alt="">-->
+				<span class="w-8 block"></span>
+				<span class="pl-5 text-2xl text-bold">&nbsp;<!--cleanText--></span>
+			</div>
+			<!--<select class="normal-case text-xl h-10 w-full pt-1 pb-1 pl-2 pr-1 text-bluegray900 border-gray400 rounded border-radius-1 focus:border-deeppurple500 focus:elevation-1" id="codecontry" name="codecontry" ></select>-->
+			<input type="hidden" id="phone" >
+
 		</div>
 		<div class="h-2/6 flex flex-col justify-end text-right p-2">
 			<span id="textshow" class="block w-min10 h-min10  m-0 p-0 font-bold text-4xl text-bluegray700 tracking-widest"></span>			
@@ -38,7 +43,6 @@
   	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="1"><span class="text-number" >1</span></div>
   	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="2"><span class="text-number" >2</span></div>
   	<div data-item class="elevation-1 text-center overflow-hidden relative rounded-md bc-white justify-center flex flex-col" number-value="3"><span class="text-number" >3</span></div>
-
   	<div data-item class="item elevation-1 box-success" backspace >
   		<span  class="material-icons md-36 text-gray900">backspace</span>
   	</div>
@@ -65,6 +69,11 @@
   </div>
 </div>
 </div>
+
+<script type="text/javascript" src="node_modules/pp-is/pp-is.min.js" ></script>
+<script type="text/javascript" src="node_modules/pp-events/pp-events.min.js"></script>
+<script type="text/javascript" src="node_modules/pp-validate/pp-validate.min.js"></script>
+<script type="text/javascript" src="node_modules/pp-model.js/pp-model.min.js"></script>
 
 <script type="text/javascript" src="js/numeric-keyboard.js"></script>
 <script type="text/javascript" src="js/contrycodes.js" ></script>
